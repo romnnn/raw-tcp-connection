@@ -23,7 +23,7 @@ From sources
 
 To install raw_tcp_connection from the sources, first clone the repository::
 
-    $ git clone git://github.com/romnnn/raw_tcp_connection
+    $ git clone git://github.com/romnn/raw_tcp_connection
 
 After you obtained a local clone of the source, install with::
 

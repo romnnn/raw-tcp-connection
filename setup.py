@@ -34,7 +34,7 @@ test_requirements = [
     "pyfakefs",
 ]
 coverage_requirements = ["coverage", "codecov"]
-docs_requirements = ["sphinx>=2.0", "romnnn_sphinx_press_theme", "sphinxemoji"]
+docs_requirements = ["sphinx>=2.0", "romnn_sphinx_press_theme", "sphinxemoji"]
 formatting_requirements = ["flake8", "black==19.10b0", "isort"]
 tool_requirements = [
     "m2r",
@@ -55,7 +55,7 @@ dev_requirements = (
 )
 
 setup(
-    author="romnnn",
+    author="romnn",
     author_email="contact@romnn.com",
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
@@ -92,7 +92,7 @@ setup(
     name="raw_tcp_connection",
     packages=find_packages(include=["raw_tcp_connection"]),
     test_suite="tests",
-    url="https://github.com/romnnn/raw_tcp_connection",
+    url="https://github.com/romnn/raw_tcp_connection",
     version=version,
     zip_safe=False,
 )

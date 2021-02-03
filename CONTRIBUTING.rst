@@ -13,7 +13,7 @@ How can I contribute?
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/romnnn/raw_tcp_connection/issues.
+Report bugs at https://github.com/romnn/raw_tcp_connection/issues.
 
 If you are reporting a bug, please include:
 
@@ -43,7 +43,7 @@ articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to `file an issue <https://github.com/romnnn/raw_tcp_connection/issues>`_ on GitHub.
+The best way to send feedback is to `file an issue <https://github.com/romnn/raw_tcp_connection/issues>`_ on GitHub.
 
 If you are proposing a feature:
 
@@ -57,7 +57,7 @@ Get Started!
 
 Ready to contribute? Here's how to set up raw_tcp_connection for local development.
 
-1. Fork the `raw_tcp_connection repo <https://github.com/romnnn/raw_tcp_connection>`_ on GitHub.
+1. Fork the `raw_tcp_connection repo <https://github.com/romnn/raw_tcp_connection>`_ on GitHub.
 2. Clone your fork locally::
 
     $ git clone git@github.com:your_name_here/raw_tcp_connection.git
@@ -101,7 +101,7 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring and add the
    feature to the list in ``README.rst``.
 3. The pull request should work for python 3.5+. Check the
-   `build status of your pull request <https://travis-ci.com/romnnn/raw_tcp_connection/pull_requests>`_
+   `build status of your pull request <https://travis-ci.com/romnn/raw_tcp_connection/pull_requests>`_
    and make sure that all tests pass for all supported python versions.
 
 Publishing (Maintainers only)
@@ -112,4 +112,4 @@ After merging the changes, tag your commits with a new version and push to GitHu
 $ bump2version (major | minor | patch)
 $ git push --tags
 
-.. _GitHub issues: https://github.com/romnnn/raw_tcp_connection/issues
+.. _GitHub issues: https://github.com/romnn/raw_tcp_connection/issues
