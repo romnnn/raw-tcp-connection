@@ -205,21 +205,7 @@ def coverage(c, publish=False, provider="codecov"):
 def docs(c, output="html"):
     """Generate documentation
     """
-    c.run(
-        "pipenv run sphinx-apidoc -o {} raw_tcp_connection".format(
-            DOCS_DIR
-        )
-    )
-    c.run(
-        "pipenv run sphinx-build -b {} {} {}".format(
-            output.lower(), DOCS_DIR, DOCS_BUILD_DIR
-        )
-    )
-    if output.lower() == "html":
-        webbrowser.open(DOCS_INDEX.as_uri())
-    elif output.lower() == "latex":
-        c.run("cd {} && make".format(DOCS_BUILD_DIR))
-
+    pass 
 
 @task
 def clean_docs(c):
